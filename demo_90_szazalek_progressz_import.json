@@ -1,0 +1,869 @@
+{
+  "app": "zarovizsga-kontrollrendszer",
+  "exportedAt": "2026-06-06T10:14:00+02:00",
+  "state": {
+    "schemaVersion": 2,
+    "updatedAt": "2026-06-06T10:14:00+02:00",
+    "examDate": "2026-07-08",
+    "ui": {
+      "sideCollapsed": false,
+      "sidePinned": true
+    },
+    "topicStatus": {
+      "A01": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A01 Információbiztonság, IT biztonság",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Vagyonelem-követelmények, fenyegetések, aktuális incidens, alapelvek",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A02": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A02 Szervezetek informatikai biztonsága",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "IT biztonsági egység, CISO, 41/2015 BM",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A03": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A03 Hozzáférésvédelem",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Adminisztratív, logikai, fizikai kontrollok",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A04": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": true,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A04 Azonosítás és hitelesítés",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Jelszókezelés, birtoklás/tulajdonság alapú azonosítás",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A05": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": true,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A05 PKI",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "PKI, CA, tanúsítvány, szimmetrikus/aszimmetrikus",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A06": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A06 Tűzfalak",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Tűzfal célja, technológiák, UTM",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A07": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A07 VPN",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "VPN típusok, kiegészítő védelmek",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A08": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A08 Hálózatbiztonság",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "VLAN, Wi‑Fi, külső/belső fenyegetések",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A09": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A09 Végponti védelem",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "AV/EDR, patch, titkosítás, konfiguráció",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A10": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A10 Fizikai biztonság",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Szerverhelyiség, kontrollok, kimeneti adatok",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A11": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A11 Incidenskezelés",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Incidens fogalma, folyamat, CSIRT",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A12": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A12 Információbiztonsági kockázatelemzés",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Kockázat, vagyonleltár, fenyegetéskatalógus",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A13": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A13 Kockázatkezelés",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Elkerülés, csökkentés, áthárítás, elfogadás",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A14": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A14 Speciális fenyegetések",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Social engineering, APT lépések",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A15": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A15 Üzletmenet folytonosság, DRP",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "BCP, DRP, BIA, RTO, RPO",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A16": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A16 Információbiztonsági tudatosság",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Képzési témák, fenntartás, BM oktatás",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A17": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A17 ISMS bevezetése és működtetése",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Dokumentációs piramis, PDCA, audit",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A18": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A18 Adatvédelem",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Infotv., GDPR, adatvédelem vs adatbiztonság",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A19": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": true,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A19 COBIT, ITIL",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "COBIT/ITIL szerepe, IT irányítás, ISO 27002 kapcsolat",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "A20": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": true,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "A20 NIS2, DORA",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "NIS2/DORA cél, kötelezettek, megfelelés",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B01": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "B01 Üzleti vállalat, érintett-felfogás",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Érintettek, célok, egyéni/szervezeti célok",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B02": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": true,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "B02 Vállalkozások jogi formái",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "EV, társaságok, Rt., felelősség, kormányzás",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B03": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "B03 Piac, versenyhelyzet, Marshall-kereszt",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Piac, verseny, belépés/kilépés, Marshall-kereszt",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B04": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "B04 Vállalatelméletek",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Standard mikroökonómiai vs magatartási",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B05": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 3,
+        "minutes": 140,
+        "notes": {
+          "thea": "B05 Koordinációs mechanizmusok",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Piaci, etikai, adminisztratív, agresszív",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B06": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": true,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B06 Kereslet-kínálat rugalmassága",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Rugalmasság, tényezők, aszimmetria",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B07": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B07 Állam szerepe, anticiklikus politika",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Állami szerepek, eszközök, tendenciák",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B08": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B08 Értékláncelmélet",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Porter, elsődleges/támogató tevékenységek",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B09": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B09 Piacismeret, szegmentálás",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Szegmentálás, B2C/B2B vevők",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B10": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B10 Innováció",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "Innováció fogalma, típusok",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": {
+          "total": 11,
+          "notes": "Demo hangos értékelés",
+          "at": "2026-06-06T10:14:00+02:00"
+        }
+      },
+      "B11": {
+        "outline": true,
+        "learned": true,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B11 Szervezeti/szerkezeti innováció, BPR",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "BPR célja, szükségessége, hatásai",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": null
+      },
+      "B12": {
+        "outline": true,
+        "learned": true,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 95,
+        "notes": {
+          "thea": "B12 Munkaerőgazdálkodás",
+          "outline": "Demo vázlat: definíció → fő elemek → példa → lezárás.",
+          "keywords": "HR szerep, emberi erőforrás, üzleti hatás",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": ""
+        },
+        "voice": null
+      },
+      "B13": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 45,
+        "notes": {
+          "thea": "B13 Vevői/eladói piac, szívásos/nyomásos piac",
+          "outline": "",
+          "keywords": "Piaci helyzetek, munkaerőpiac",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": "Még pontosítandó."
+        },
+        "voice": null
+      },
+      "B14": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 45,
+        "notes": {
+          "thea": "B14 Stratégiai döntések, SWOT",
+          "outline": "",
+          "keywords": "Stratégiai döntés, döntési probléma, SWOT",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": "Még pontosítandó."
+        },
+        "voice": null
+      },
+      "B15": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": true,
+        "score": 0,
+        "minutes": 45,
+        "notes": {
+          "thea": "B15 Tudásalapú gazdaság, tudástőke",
+          "outline": "",
+          "keywords": "Emberi/szervezeti/kapcsolati tőke",
+          "questions": "Fogalom, összehasonlítás, gyakorlati példa.",
+          "errors": "Még pontosítandó."
+        },
+        "voice": null
+      }
+    },
+    "days": {
+      "2026-06-09": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-10": {
+        "minutes": 235,
+        "missed": false
+      },
+      "2026-06-11": {
+        "minutes": 260,
+        "missed": false
+      },
+      "2026-06-12": {
+        "minutes": 180,
+        "missed": false
+      },
+      "2026-06-13": {
+        "minutes": 250,
+        "missed": false
+      },
+      "2026-06-14": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-15": {
+        "minutes": 230,
+        "missed": false
+      },
+      "2026-06-16": {
+        "minutes": 245,
+        "missed": false
+      },
+      "2026-06-17": {
+        "minutes": 210,
+        "missed": false
+      },
+      "2026-06-18": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-19": {
+        "minutes": 255,
+        "missed": false
+      },
+      "2026-06-20": {
+        "minutes": 200,
+        "missed": false
+      },
+      "2026-06-21": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-22": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-23": {
+        "minutes": 260,
+        "missed": false
+      },
+      "2026-06-24": {
+        "minutes": 220,
+        "missed": false
+      },
+      "2026-06-25": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-26": {
+        "minutes": 230,
+        "missed": false
+      },
+      "2026-06-27": {
+        "minutes": 250,
+        "missed": false
+      },
+      "2026-06-28": {
+        "minutes": 180,
+        "missed": true
+      },
+      "2026-06-29": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-06-30": {
+        "minutes": 260,
+        "missed": false
+      },
+      "2026-07-01": {
+        "minutes": 220,
+        "missed": false
+      },
+      "2026-07-02": {
+        "minutes": 240,
+        "missed": false
+      },
+      "2026-07-03": {
+        "minutes": 230,
+        "missed": false
+      },
+      "2026-07-04": {
+        "minutes": 210,
+        "missed": false
+      },
+      "2026-07-05": {
+        "minutes": 120,
+        "missed": false
+      },
+      "2026-07-06": {
+        "minutes": 0,
+        "missed": false
+      },
+      "2026-07-07": {
+        "minutes": 0,
+        "missed": false
+      },
+      "2026-07-08": {
+        "minutes": 0,
+        "missed": false
+      },
+      "2026-07-09": {
+        "minutes": 0,
+        "missed": false
+      },
+      "2026-07-10": {
+        "minutes": 0,
+        "missed": false
+      }
+    },
+    "customPlans": {
+      "2026-06-06": "Demo: 90% progressz. Fókusz: A20, B02, A04 javítása + vizsgaszimuláció."
+    },
+    "settings": {
+      "focusMin": 40,
+      "breakMin": 8,
+      "longBreakMin": 20,
+      "blocksNum": 6
+    }
+  }
+}
