@@ -131,8 +131,7 @@ Mentés → Import JSON fájlból
 .
 ├── zarovizsga_kontrollrendszer_production_final.html
 ├── README.md
-└── docs/
-    └── screenshot.png
+└── screenshot.png
 ```
 
 ---
