@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/main.png" alt="Záróvizsga Kontrollrendszer screenshot" width="900">
+  <img src="main.png" alt="Záróvizsga Kontrollrendszer screenshot" width="900">
 </p>
 
 ---
