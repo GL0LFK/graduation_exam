@@ -1,5 +1,7 @@
 # Záróvizsga Kontrollrendszer
 
+**Letöltés:** [Záróvizsga V2.7] (https://github.com/user-attachments/files/28686008/zarovizsga.html)
+
 ## Képernyőképek
 
 ### Asztali nézet
