@@ -1,5 +1,15 @@
 # Záróvizsga Kontrollrendszer
 
+> **Legújabb release:** v2.8.3  
+> **Letöltés:** [zarovizsga_v2.8.3_live.html](https://github.com/user-attachments/files/28928103/zarovizsga_v2.8.3_live.html)
+
+<p align="center">
+  <strong>Offline, mobilbarát tanulásmenedzsment és felkészülési kontrollrendszer záróvizsgára</strong><br>
+  Egyfájlos HTML alkalmazás • LocalStorage • JSON export/import • Responsive UI • Világos/sötét téma
+</p>
+
+---
+
 ## Képernyőképek
 
 ### Asztali nézet
@@ -23,11 +33,11 @@
   <tr>
     <td align="center">
       <strong>Világos téma</strong><br>
-      <img src="docs/main_mob.png" alt="Záróvizsga Kontrollrendszer desktop világos téma" width="450">
+      <img src="docs/main_mob.png" alt="Záróvizsga Kontrollrendszer mobil világos téma" width="260">
     </td>
     <td align="center">
       <strong>Sötét téma</strong><br>
-      <img src="docs/main_mob_dark.png" alt="Záróvizsga Kontrollrendszer desktop sötét téma" width="450">
+      <img src="docs/main_mob_dark.png" alt="Záróvizsga Kontrollrendszer mobil sötét téma" width="260">
     </td>
   </tr>
 </table>
@@ -44,6 +54,8 @@
 - [Mobilhasználat](#mobilhasználat)
 - [Mentés és visszatöltés](#mentés-és-visszatöltés)
 - [Import előtti biztonsági mentés](#import-előtti-biztonsági-mentés)
+- [Dátumvezérelt tanulási beosztás](#dátumvezérelt-tanulási-beosztás)
+- [Visszamondás](#visszamondás)
 - [Vizsgamód](#vizsgamód)
 - [Sötét téma](#sötét-téma)
 - [Telepítés / használat](#telepítés--használat)
@@ -101,6 +113,7 @@ A Dashboard az alkalmazás fő áttekintő nézete. Itt látszik:
 - visszamondott tételek száma,
 - gyenge tételek száma,
 - összes nettó tanulási idő,
+- tanulás kezdődátuma,
 - vizsgáig hátralévő napok száma,
 - napi fókusz,
 - automatikus ajánlás,
@@ -168,35 +181,6 @@ A Jegyzetek nézetben tételenként rögzíthető:
 
 A cél nem egy teljes jegyzetfüzet kiváltása, hanem egy 5–8 perces, vizsgán elmondható feleletvázlat karbantartása.
 
-### Random visszamondás
-
-A Random visszamondás nézet tételt húz gyakorláshoz. A húzás előnyben részesíti:
-
-- még nem visszamondott tételeket,
-- gyenge tételeket,
-- nehéz tételeket,
-- alacsony pontszámú tételeket.
-
-### Hangos visszamondás
-
-A Hangos nézet egy önértékelő sablon. A felhasználó telefonon vagy más eszközön rögzítheti a feleletet, majd visszahallgatás után pontozhatja:
-
-- struktúra,
-- pontosság,
-- példák,
-- folyékonyság / időkezelés.
-
-### Vizsgamód
-
-A Vizsgamód célja a zavartalan vizsgagyakorlás. Ebben a módban:
-
-- húzható 1 A és 1 B tétel,
-- állítható a felkészülési idő,
-- állítható a felelési idő,
-- külön timer indítható a felkészüléshez és a feleléshez.
-
-A Vizsgamód nem adminisztrációs felület, hanem gyakorló nézet.
-
 ---
 
 ## Módszertan
@@ -216,13 +200,6 @@ Lépései:
 5. gyenge pontok javítása,
 6. vizsgaszimuláció.
 
-Előnye:
-
-- stabil,
-- jól követhető,
-- csökkenti a pánikot,
-- marad idő a gyenge pontokra.
-
 ### Opció B – gyors lefedés
 
 Ez akkor hasznos, ha gyorsan át kell látni a teljes tételsort.
@@ -232,11 +209,6 @@ Jellemzői:
 - rövid idő alatt sok tétel első körös feldolgozása,
 - utána intenzív ismétlés,
 - hamar kiderülnek a gyenge pontok.
-
-Kockázata:
-
-- felszínes lehet,
-- fegyelmezett visszamondás nélkül hamis biztonságérzetet adhat.
 
 ### Opció C – fallback / minimum túlélő terv
 
@@ -277,7 +249,7 @@ Tételenkénti feleletvázlat és hibajegyzet.
 
 ### Napok
 
-Napi nettó tanulási idő követése.
+Napi nettó tanulási idő követése. A kezdődátum és a vizsgadátum módosításával a beosztás automatikusan újraszámolódik.
 
 ### Timer
 
@@ -285,11 +257,7 @@ Fókuszidő mérés aktív tételhez kapcsolva.
 
 ### Visszamondás
 
-Random tételhúzás gyakorláshoz.
-
-### Hangos
-
-Hangos felelet önértékelése.
+Random tételhúzás, hangos visszamondás, státuszjelölés és 0–3 közötti önértékelés egy oldalon.
 
 ### Szimuláció
 
@@ -307,9 +275,9 @@ Nap végi státusz szöveg generálása.
 
 JSON export és import.
 
-### Súgó
+### Dokumentáció
 
-Rövid használati és módszertani leírás.
+A Dokumentáció menüpont új böngészőfülön megnyitja a projekt GitHub oldalát.
 
 ---
 
@@ -362,6 +330,45 @@ Ennek célja, hogy egy hibás vagy rossz JSON import ne írja felül véglegesen
 
 ---
 
+## Dátumvezérelt tanulási beosztás
+
+A v2.8.3 verzióban a tanulási terv már nem fix dátumtól indul. Beállítható:
+
+- a tanulás kezdődátuma,
+- a vizsga dátuma.
+
+A két dátum módosítása után a **Napok** oldal automatikusan újraszámolja az ütemezést. Sikeres újraszámoláskor rövid, modern üzenetbuborék jelenik meg.
+
+---
+
+## Visszamondás
+
+A v2.8.3 verzióban a korábbi külön Random visszamondás és Hangos visszamondás funkciók egy oldalra kerültek.
+
+A Visszamondás oldalon elérhető:
+
+- random tételhúzás,
+- visszamondva / gyenge / nehéz státusz,
+- 0–3 pontszám,
+- hangos felelet értékelése,
+- struktúra, pontosság, példák, folyékonyság/idő pontozása,
+- jegyzet, hogy mi hiányzott.
+
+---
+
+## Vizsgamód
+
+A Vizsgamód célja a zavartalan vizsgagyakorlás. Ebben a módban:
+
+- húzható 1 A és 1 B tétel,
+- állítható a felkészülési idő,
+- állítható a felelési idő,
+- külön timer indítható a felkészüléshez és a feleléshez.
+
+A Vizsgamód nem adminisztrációs felület, hanem gyakorló nézet.
+
+---
+
 ## Sötét téma
 
 Az alkalmazás világos és sötét témát is támogat.
@@ -395,7 +402,7 @@ Nincs telepítés.
 Ajánlott fájl:
 
 ```text
-zarovizsga.html
+zarovizsga_v2.8.3_live.html
 ```
 
 ---
@@ -422,10 +429,12 @@ Fontos:
 
 ```text
 .
-├── test_data/zarovizsga.html
-├── docs/README.md
-├── docs/main.png
-└── docs/main_mobile.png
+├── zarovizsga_v2.8.3_live.html
+├── README.md
+├── main.png
+├── main_dark.png
+├── main_mob.png
+└── main_mob_dark.png
 ```
 
 ---
