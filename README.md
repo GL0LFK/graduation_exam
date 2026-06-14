@@ -33,11 +33,11 @@
   <tr>
     <td align="center">
       <strong>Világos téma</strong><br>
-      <img src="docs/main_mob.png" alt="Záróvizsga Kontrollrendszer mobil világos téma" width="260">
+      <img src="docs/main_mob.png" alt="Záróvizsga Kontrollrendszer Mobil világos téma" width="260">
     </td>
     <td align="center">
       <strong>Sötét téma</strong><br>
-      <img src="docs/main_mob_dark.png" alt="Záróvizsga Kontrollrendszer mobil sötét téma" width="260">
+      <img src="docs/main_mob_dark.png" alt="Záróvizsga Kontrollrendszer Mobil sötét téma" width="260">
     </td>
   </tr>
 </table>
