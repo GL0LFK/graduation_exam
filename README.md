@@ -46,6 +46,7 @@
 
 ## Tartalomjegyzék
 
+- [Első lépések](#elsőlépések)
 - [Áttekintés](#áttekintés)
 - [Kinek készült?](#kinek-készült)
 - [Fő funkciók](#fő-funkciók)
@@ -65,6 +66,19 @@
 - [Roadmap ötletek](#roadmap-ötletek)
 - [Licenc](#licenc)
 - [Szerző](#szerző)
+
+---
+
+## Első lépések
+
+- A mentések törlésével tudod alaphelyzetbe állítani a programot
+- A **Timer** lapon kezd el a tanulást
+- Használd a **Visszamondás** oldalt a gyakorláshoz
+
+- Amennyiben a `Tételek_A01-20_2026`-at használod, akár így is lehet tanulni belőle:
+  1. **Első kör:** csak az „Ultra rövid memorizálós változatokat” tanuld meg
+  2. **Második kör:** minden tételnél az 5–8 perces feleletvázlatot mondd vissza hangosan
+  3. **Harmadik kör:** nézd át a részletes a/b/c részeket, hogy kérdés esetén tudj példát mondani
 
 ---
 
