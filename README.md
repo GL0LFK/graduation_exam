@@ -1,7 +1,7 @@
 # Záróvizsga Kontrollrendszer
 
-> **Legújabb release:** v2.8.3  
-> **Letöltés:** [zarovizsga_v2.8.3_live.html](https://github.com/user-attachments/files/28928103/zarovizsga_v2.8.3_live.html)
+> **Legújabb release:** v2.8.6  
+> **Letöltés:** [zarovizsga_v2.8.6_live.html](https://github.com/user-attachments/files/28935553/zarovizsga_v2.8.6_live.html)
 
 <p align="center">
   <strong>Offline, mobilbarát tanulásmenedzsment és felkészülési kontrollrendszer záróvizsgára</strong><br>
