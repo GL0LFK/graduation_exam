@@ -1,0 +1,80 @@
+1. Információbiztonság, IT biztonság
+	a. Milyen követelményeknek kell megfelelniük az  (Kód: 01)informatikai vagyonelemeknek?
+	b. Ismertessen minden vagyonelem típusra olyan fenyegetéseket, melyek napjainkban a leggyakrabban fordulnak elő! Ismertesse részletesen azt az incidenst, melyről legutóbb hallott!
+	c. Ismertesse az információbiztonság alapelveit!
+2. Szervezetek informatikai biztonsága (Kód: 02)
+	a. Ismertesse, milyen szempontoknak kell érvényesülniük egy IT biztonsággal foglalkozó szervezeti egység létrehozásakor?
+	b. Ismertesse, hogy milyen feladatok tartozhatnak egy szervezet IT biztonsági vezetőjéhez!
+	c. Milyen személyi és pénzügyi követelményeket fogalmaz meg a 41/2015. (VII. 15.) BM rendelet az informatikai biztonsággal összefüggésben?
+3. Hozzáférésvédelem (Kód: 03)
+	a. Milyen adminisztratív hozzáférésvédelmi kontrollokat ismer?
+	b. Milyen logikai hozzáférésvédelmi kontrollokat ismer?
+	c. Milyen fizikai hozzáférésvédelmi kontrollokat ismer?
+4. Azonosítás és hitelesítés (Kód: 04)
+	a. Fogalmazza meg a jelszóhasználattal, jelszókezeléssel kapcsolatos legfontosabb szabályokat, elvárásokat!
+	b. Milyen tulajdon alapú azonosítási lehetőségeket, eszközöket ismer?
+	c. Milyen tulajdonság alapú azonosítási lehetőségeket ismer?
+5. PKI (Kód: 05)
+	a. Ismertesse a PKI felépítését és működését!
+	b. Ismertesse az szinkron és aszinkron titkosítás közötti különbséget!
+	c. Milyen feladatokra lehet használni a PKI infrastruktúrát? Mondjon gyakorlati példát!
+6. Tűzfalak (Kód: 06)
+	a. Ismertesse a tűzfalak alkalmazásának célját!
+	b. Sorolja fel az alapvető tűzfal technológiákat és ismertesse azok működését!
+	c. Sorolja fel milyen biztonsági funkciók érhetők el a modern UTM megoldásokban!
+7. VPN (Kód: 07)
+	a. Ismertesse milyen típusú VPN megoldásokat ismer kiépítés és technológia szerint!
+	b. Ismertesse VPN kiépítése során milyen kiegészítő megoldások alkalmazhatók a biztonság fokozására!
+	c. Ismertesse, hogy a VPN megoldást milyen más tanult technológiák kiegészítő megoldásaként alkalmazhatjuk a biztonság fokozására!
+8. Hálózatbiztonság (Kód: 08)
+	a. Ismertesse a VLAN-ok típusait!
+	b. Ismertesse az alapvető biztonsági megfontolásokat wi-fi hálózat esetében!
+	c. Ismertesse milyen külső és belső fenyegetések érhetik az informatikai hálózatokat!
+9. Végponti védelem (Kód: 09)
+	a. Sorolja fel milyen biztonsági funkciók valósíthatók meg végpontok esetében!
+	b. Milyen konfiguráció menedzsment kontrollokat alkalmazhatunk a végponti védelem esetében?
+	c. Ismertessen egy végponti védelmet szolgáló alkalmazást!
+10. Fizikai biztonság (Kód: 10)
+	a. Milyen szempontokat célszerű mérlegelni egy szerver helyiség kiválasztása kapcsán?
+	b. Milyen fizikai biztonsági kontrollokat ismer, milyen fenyegetésekre jelentenek ezek válaszokat?
+	c. Ismertesse egy példán keresztül, hogy miként valósítható meg a kimeneti adatokhoz történő fizikai hozzáférés korlátozása?
+11. Incidenskezelés (Kód: 11)
+	a. Ismertesse az incidens fogalmát, kezelésének folyamatát!
+	b. Ismertesse az incidenskezelési szervezeti egységek felépítésének lehetséges módjait!
+	c. Ismertesse, hogy miként lehet korszerű incidenskezelési folyamatot működtetni!
+12. Információbiztonsági kockázatelemzés (Kód: 12)
+	a. Ismertesse az információbiztonsági kockázat fogalmát, számítási módját!
+	b. Ismertesse a vagyonelem típusokat, a vagyonleltár és a fenyegetéskatalógus fogalmát!
+	c. Milyen kockázatelemzési módszereket ismer?
+13. Kockázatkezelés (Kód: 13)
+	a. Milyen kockázatkezelési módszereket ismer?
+	b. Ismertesse a kockázatelemzés által feltárt kockázatok kezelésének folyamatát!
+	c. Milyen egyéb folyamatok bemeneti adatát szolgáltatja egy elkészült kockázatelemzés?
+14. Speciális fenyegetések (Kód: 14)
+	a. Mi a social engineering?
+	b. Milyen módon lehet védekezni a social engineering támadás ellen?
+	c. Milyen lépésekből épül fel egy APT támadás?
+15. Üzletmenet folytonosság, katasztrófa utáni helyreállítás (Kód: 15)
+	a. Ismertesse az üzletmenet folytonossági tervezés folyamatát és a tesztelési módszereket!
+	b. Ismertesse a katasztrófa helyreállítási tervezés folyamatát!
+	c. Mi az RTO és az RPO? Milyen védelmi intézkedések kialakítását segítik elő?
+16. Információbiztonsági tudatosság
+	a. Mik lennének a főbb témakörök (címszavakban), amiket érintene egy információbiztonsági tudatosító képzés összeállítása során (általán (Kód: 16)os felhasználói körnek)?
+	b. Milyen módszereket ismer a biztonságtudatosság folyamatos fenntartására?
+	c. Milyen témákat kell kötelezően évente oktatni a felhasználóknak a 41/2015. (VII. 15.) BM rendelet hatálya alá tartozó szervezeteknél?
+17. Az ISMS bevezetése és működtetése (Kód: 17)
+	a. Milyen elemekből áll az ISMS dokumentációs rendszere (piramis)?
+	b. Mi az az ISMS és a PDCA és mi a kapcsolat közöttük?
+	c. Ismertesse az információbiztonsági audit folyamatát! Milyen audit típusokat ismer?
+18. Adatvédelem
+	a. A 2011. évi CXII. törvény (az info (Kód: 18)rmációs önrendelkezési jogról és az információszabadságról) szerint mi minősül személyes és mi minősül különleges adatnak?
+	b. Ismertesse az adatvédelem általános céljait és mutassa be a különbséget az adatvédelem és az adatbiztonság között!
+	c. Ismertesse a GDPR főbb területeit!
+19. COBIT, ITIL (Kód: 19)
+	a, Ismertesse a COBIT illetve az ITIL fogalmát, szerepét!
+	b, Melyek az informatikai irányítás központi területei?
+	c, Mi a kapcsolata a COBIT-nak az ITIL és az ISO/IEC 27002 szabványokkal?
+20. NIS2, DORA (Kód: 20)
+	a, Ismertesse a NIS2 és a DORA fogalmát, szerepét, célját!
+	b, Kik a kötelezettjei a NIS2 illetve DORA szabályozásoknak?
+	c, Milyen tevékenységeket takar a NIS2 illetve DORA megfelelés?
