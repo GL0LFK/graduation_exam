@@ -26,6 +26,16 @@
       <img src="docs/main_dark.png" alt="Záróvizsga Kontrollrendszer desktop sötét téma" width="450">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <strong>Napok</strong><br>
+      <img src="docs/days.png" alt="Napok oldal - tételek" width="450">
+    </td>
+    <td align="center">
+      <strong>Visszamondás</strong><br>
+      <img src="docs/practice.png" alt="Visszamondás oldal, értékeléssel" width="450">
+    </td>
+  </tr>
 </table>
 
 ### Mobil nézet
