@@ -1,7 +1,7 @@
 # Záróvizsga Kontrollrendszer
 
-> **Legújabb release:** v2.9.3  
-> **Letöltés:** [zarovizsga_v2.9.3_live.html](https://github.com/user-attachments/files/29112453/zarovizsga_v2.9.3_live.html)
+> **Legújabb release:** v2.9.8  
+> **Letöltés:** [zarovizsga_v2.9.8_live.html](https://github.com/user-attachments/files/29151940/zarovizsga_v2.9.8_live.html)
 > 
 
 <p align="center">
