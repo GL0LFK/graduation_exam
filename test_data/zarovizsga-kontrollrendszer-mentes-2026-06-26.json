@@ -1,0 +1,2408 @@
+{
+  "app": "zarovizsga-kontrollrendszer",
+  "exportedAt": "2026-06-26T21:00:58.108Z",
+  "state": {
+    "schemaVersion": 2,
+    "updatedAt": "2026-06-26T21:00:58.106Z",
+    "startDate": "2026-06-14",
+    "examDate": "2026-07-09",
+    "ui": {
+      "sideCollapsed": false,
+      "sidePinned": false,
+      "showAdvancedPages": false,
+      "overviewSetFilter": "all",
+      "overviewSort": "minutesDesc",
+      "overviewQuickFilter": "improving"
+    },
+    "topicStatus": {
+      "A01": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 2,
+        "minutes": 217,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 4,
+          "flow": 5,
+          "readPct": 0,
+          "type": "full",
+          "at": "2026-06-26T13:02:46.780Z",
+          "total": 14,
+          "notes": "b: lemaradt a Net; c lemaradt az audit, tudatosság",
+          "confidence": 75
+        },
+        "voiceHistory": [
+          {
+            "struct": 0,
+            "acc": 0,
+            "ex": 2,
+            "flow": 0,
+            "total": 2,
+            "notes": "ultra rovid, fuzetbol olvasva",
+            "at": "2026-06-14T22:13:28.782Z"
+          },
+          {
+            "struct": 2,
+            "acc": 1,
+            "ex": 3,
+            "flow": 2,
+            "total": 8,
+            "notes": "ultra rovid, fuzetbol olvasva",
+            "at": "2026-06-15T19:00:35.807Z"
+          },
+          {
+            "struct": 3,
+            "acc": 2,
+            "ex": 3,
+            "flow": 2,
+            "total": 10,
+            "readPct": 80,
+            "type": "full",
+            "notes": "80% fuzet, A peldanal is",
+            "at": "2026-06-16T20:38:20.921Z"
+          },
+          {
+            "struct": 4,
+            "acc": 3,
+            "ex": 3,
+            "flow": 3,
+            "total": 13,
+            "readPct": 20,
+            "type": "full",
+            "notes": "20% fuzet, A peldanal rapillantas",
+            "at": "2026-06-17T19:03:39.992Z"
+          },
+          {
+            "struct": 4,
+            "acc": 3,
+            "ex": 3,
+            "flow": 4,
+            "total": 14,
+            "readPct": 15,
+            "type": "full",
+            "notes": "15% fuzet, A peldanal rapillantas",
+            "at": "2026-06-18T17:40:05.524Z"
+          },
+          {
+            "struct": 4,
+            "acc": 5,
+            "flow": 4,
+            "readPct": 0,
+            "type": "full",
+            "at": "2026-06-22T19:45:56.148Z",
+            "total": 13,
+            "notes": "nagyon jol ment",
+            "confidence": 74
+          },
+          {
+            "struct": 4,
+            "acc": 4,
+            "flow": 4,
+            "readPct": 0,
+            "type": "full",
+            "at": "2026-06-23T20:48:11.362Z",
+            "total": 12,
+            "notes": "jol ment, c-nél lemaradt az audit es a tudatosság",
+            "confidence": 77
+          },
+          {
+            "struct": 5,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 0,
+            "type": "full",
+            "at": "2026-06-26T13:02:46.780Z",
+            "total": 14,
+            "notes": "b: lemaradt a Net; c lemaradt az audit, tudatosság",
+            "confidence": 75
+          }
+        ]
+      },
+      "A02": {
+        "outline": true,
+        "learned": true,
+        "recited": true,
+        "weak": false,
+        "hard": false,
+        "score": 1,
+        "minutes": 133,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 4,
+          "acc": 4,
+          "flow": 5,
+          "readPct": 5,
+          "type": "full",
+          "at": "2026-06-25T21:05:54.757Z",
+          "total": 13,
+          "notes": "Teljes: a c pénzügyi rész utolsó pontja (aranyos védelem)",
+          "confidence": 67
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 0,
+            "ex": 0,
+            "flow": 0,
+            "total": 1,
+            "readPct": 85,
+            "type": "full",
+            "notes": "85% fuzetbol olvasva",
+            "at": "2026-06-15T20:38:58.609Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "readPct": 90,
+            "type": "full",
+            "notes": "90% fuzetbol olvasva",
+            "at": "2026-06-16T20:56:06.709Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "ex": 0,
+            "flow": 2,
+            "total": 6,
+            "readPct": 60,
+            "type": "full",
+            "notes": "60% fuzetbol olvasva",
+            "at": "2026-06-17T19:12:16.659Z"
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "ex": 0,
+            "flow": 3,
+            "total": 9,
+            "readPct": 15,
+            "type": "full",
+            "notes": "Teljes: a c penzugyi resz, fuzetbol, egyebkent jol ment!",
+            "at": "2026-06-18T17:33:10.814Z"
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 15,
+            "total": 9,
+            "type": "full",
+            "notes": "Teljes: a c penzugyi resz, fuzetbol, egyebkent jol ment!",
+            "at": "2026-06-19T18:16:17.606Z",
+            "confidence": 66
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 4,
+            "readPct": 15,
+            "type": "full",
+            "at": "2026-06-22T17:33:44.789Z",
+            "total": 10,
+            "notes": "Teljes: a c penzugyi resz, fuzetbol mar masodszor, most leirtam",
+            "confidence": 67
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 4,
+            "readPct": 15,
+            "type": "full",
+            "at": "2026-06-23T18:53:38.315Z",
+            "total": 10,
+            "notes": "Teljes: a c penzugyi resz, fuzetbol mar harmadszor, most leirtam megint",
+            "confidence": 68
+          },
+          {
+            "struct": 4,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 5,
+            "type": "full",
+            "at": "2026-06-25T21:05:54.757Z",
+            "total": 13,
+            "notes": "Teljes: a c pénzügyi rész utolsó pontja (aranyos védelem)",
+            "confidence": 67
+          }
+        ]
+      },
+      "A03": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 41,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 1,
+          "acc": 1,
+          "flow": 1,
+          "readPct": 50,
+          "type": "flashcard",
+          "at": "2026-06-25T20:47:31.460Z",
+          "total": 3,
+          "notes": "pontatlan, de mar eszembe jutnak a kulcsszavak",
+          "confidence": 10
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 0,
+            "ex": 0,
+            "flow": 1,
+            "total": 2,
+            "notes": "flash: 90% fuzet",
+            "at": "2026-06-18T18:41:30.597Z"
+          },
+          {
+            "struct": 1,
+            "acc": 0,
+            "flow": 1,
+            "readPct": 100,
+            "total": 2,
+            "notes": "flash: katasztrofa",
+            "at": "2026-06-19T19:14:59.817Z",
+            "confidence": 4
+          },
+          {
+            "struct": 1,
+            "acc": 0,
+            "flow": 1,
+            "readPct": 80,
+            "type": "flashcard",
+            "at": "2026-06-22T20:40:09.943Z",
+            "total": 2,
+            "notes": "valami megragadt..",
+            "confidence": 38
+          },
+          {
+            "struct": 1,
+            "acc": 0,
+            "flow": 1,
+            "readPct": 80,
+            "type": "flashcard",
+            "at": "2026-06-23T22:15:28.324Z",
+            "total": 2,
+            "notes": "foszlányos ",
+            "confidence": 36
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 50,
+            "type": "flashcard",
+            "at": "2026-06-25T20:47:31.460Z",
+            "total": 3,
+            "notes": "pontatlan, de mar eszembe jutnak a kulcsszavak",
+            "confidence": 10
+          }
+        ]
+      },
+      "A04": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 15,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 4,
+          "flow": 5,
+          "readPct": 10,
+          "type": "flashcard",
+          "at": "2026-06-26T13:33:13.814Z",
+          "total": 14,
+          "notes": "",
+          "confidence": 40
+        },
+        "voiceHistory": [
+          {
+            "struct": 2,
+            "acc": 2,
+            "ex": 0,
+            "flow": 2,
+            "total": 6,
+            "notes": "flash: jol ment - semmi fuzet!",
+            "at": "2026-06-18T19:24:34.770Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 70,
+            "total": 6,
+            "notes": "flash: kellett a fuzet",
+            "at": "2026-06-19T19:52:46.232Z",
+            "confidence": 35
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 2,
+            "readPct": 5,
+            "type": "flashcard",
+            "at": "2026-06-22T19:03:38.376Z",
+            "total": 7,
+            "notes": "USB kulcs lemaradt",
+            "confidence": 56
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 2,
+            "readPct": 5,
+            "type": "flashcard",
+            "at": "2026-06-23T19:26:10.592Z",
+            "total": 7,
+            "notes": "USB kulcs lemaradt mar megint!",
+            "confidence": 58
+          },
+          {
+            "struct": 5,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-26T13:33:13.814Z",
+            "total": 14,
+            "notes": "",
+            "confidence": 40
+          }
+        ]
+      },
+      "A05": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 27,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 3,
+          "acc": 4,
+          "flow": 4,
+          "readPct": 10,
+          "type": "flashcard",
+          "at": "2026-06-25T21:25:22.603Z",
+          "total": 11,
+          "notes": "c lemaradt a s/mime es a kodalairas",
+          "confidence": 33
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 2,
+            "ex": 0,
+            "flow": 2,
+            "total": 5,
+            "notes": "flash: 80% fuzet",
+            "at": "2026-06-18T19:04:08.330Z"
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 70,
+            "type": "flashcard",
+            "at": "2026-06-22T20:58:29.184Z",
+            "total": 5,
+            "notes": "a nem ment, c felig",
+            "confidence": 56
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 20,
+            "type": "flashcard",
+            "at": "2026-06-23T18:59:36.499Z",
+            "total": 8,
+            "notes": "a nem ment, c felig",
+            "confidence": 58
+          },
+          {
+            "struct": 3,
+            "acc": 4,
+            "flow": 4,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-25T21:25:22.603Z",
+            "total": 11,
+            "notes": "c lemaradt a s/mime es a kodalairas",
+            "confidence": 33
+          }
+        ]
+      },
+      "A06": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 49,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T20:51:07.694Z",
+          "total": 15,
+          "notes": "",
+          "confidence": 34
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "flash: 90% fuzet",
+            "at": "2026-06-18T19:19:21.131Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 90,
+            "total": 3,
+            "notes": "flash: teljes katasztrofa",
+            "at": "2026-06-19T18:46:44.727Z",
+            "confidence": 15
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 100,
+            "type": "flashcard",
+            "at": "2026-06-22T17:07:11.505Z",
+            "total": 3,
+            "notes": "flash: teljes katasztrofa",
+            "confidence": 42
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 1,
+            "readPct": 90,
+            "type": "flashcard",
+            "at": "2026-06-23T20:04:29.351Z",
+            "total": 4,
+            "notes": "fos: 3x leírtam",
+            "confidence": 40
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 80,
+            "type": "flashcard",
+            "at": "2026-06-25T20:59:36.046Z",
+            "total": 3,
+            "notes": "a 2/4, b 3/5, c 3/7 <- itt kevertem mas tétellel es a b)-hez mondtam az IDS/IPS-t",
+            "confidence": 9
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 5,
+            "readPct": 40,
+            "type": "flashcard",
+            "at": "2026-06-26T20:32:27.764Z",
+            "total": 11,
+            "notes": "",
+            "confidence": 15
+          },
+          {
+            "struct": 4,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-26T20:33:36.929Z",
+            "total": 13,
+            "notes": "",
+            "confidence": 23
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T20:34:37.022Z",
+            "total": 15,
+            "notes": "",
+            "confidence": 29
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T20:51:07.694Z",
+            "total": 15,
+            "notes": "",
+            "confidence": 34
+          }
+        ]
+      },
+      "A07": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": 1,
+        "minutes": 40,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 1,
+          "acc": 2,
+          "flow": 2,
+          "readPct": 70,
+          "type": "flashcard",
+          "at": "2026-06-25T14:24:22.498Z",
+          "total": 5,
+          "notes": "flash: a, b ment, c nem",
+          "confidence": 12
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 2,
+            "total": 4,
+            "notes": "Flash: 70% fuzet",
+            "at": "2026-06-18T20:01:20.817Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 90,
+            "total": 3,
+            "notes": "flash: a ment, b felig, c nem",
+            "at": "2026-06-19T18:57:08.982Z",
+            "confidence": 15
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 100,
+            "type": "flashcard",
+            "at": "2026-06-22T17:21:30.817Z",
+            "total": 3,
+            "notes": "flash: a ment, b felig, c nem",
+            "confidence": 42
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 70,
+            "type": "flashcard",
+            "at": "2026-06-23T22:32:15.782Z",
+            "total": 3,
+            "notes": "flash: a ment, b, c nem",
+            "confidence": 41
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 70,
+            "type": "flashcard",
+            "at": "2026-06-25T14:24:22.498Z",
+            "total": 5,
+            "notes": "flash: a, b ment, c nem",
+            "confidence": 12
+          }
+        ]
+      },
+      "A08": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 24,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-25T21:48:06.108Z",
+          "total": 15,
+          "notes": "hibátlan",
+          "confidence": 36
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "flash: 70% fuzet",
+            "at": "2026-06-18T19:30:09.289Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 80,
+            "total": 3,
+            "notes": "flash: 80% fuzet",
+            "at": "2026-06-19T19:24:40.326Z",
+            "confidence": 20
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 20,
+            "type": "flashcard",
+            "at": "2026-06-22T18:58:49.584Z",
+            "total": 6,
+            "notes": "c tökéletes,  a es b egy két dolog lemaradt",
+            "confidence": 49
+          },
+          {
+            "struct": 2,
+            "acc": 1,
+            "flow": 2,
+            "readPct": 40,
+            "type": "flashcard",
+            "at": "2026-06-23T19:43:43.130Z",
+            "total": 5,
+            "notes": "a) - osszetevesztettem a VPN-nel (figyelemesebben kell elolvasni a kerdest); lemaradt a subnet es a dinamikus\nb) - frissites, 802.1x lemaradt\n",
+            "confidence": 49
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-25T21:48:06.108Z",
+            "total": 15,
+            "notes": "hibátlan",
+            "confidence": 36
+          }
+        ]
+      },
+      "A09": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 39,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 3,
+          "flow": 3,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T12:58:05.166Z",
+          "total": 11,
+          "notes": "a,b pontatlan",
+          "confidence": 23
+        },
+        "voiceHistory": [
+          {
+            "struct": 2,
+            "acc": 2,
+            "ex": 0,
+            "flow": 2,
+            "total": 6,
+            "notes": "2x visszamonda egymas utan, eloszor olvasva, utana 80% fejbol",
+            "at": "2026-06-18T17:16:43.899Z"
+          },
+          {
+            "struct": 0,
+            "acc": 0,
+            "flow": 0,
+            "readPct": 100,
+            "type": "flashcard",
+            "at": "2026-06-22T18:50:05.114Z",
+            "total": 0,
+            "notes": "nem ment",
+            "confidence": 52
+          },
+          {
+            "struct": 0,
+            "acc": 1,
+            "flow": 0,
+            "readPct": 100,
+            "type": "flashcard",
+            "at": "2026-06-23T20:55:24.614Z",
+            "total": 1,
+            "notes": "a es b fele hiányzott, leírtam",
+            "confidence": 46
+          },
+          {
+            "struct": 5,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T12:58:05.166Z",
+            "total": 11,
+            "notes": "a,b pontatlan",
+            "confidence": 23
+          }
+        ]
+      },
+      "A10": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 36,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 0,
+          "acc": 2,
+          "flow": 2,
+          "readPct": 30,
+          "type": "flashcard",
+          "at": "2026-06-25T21:21:34.597Z",
+          "total": 4,
+          "notes": "tűzvédelem, ups lemaradt.",
+          "confidence": 19
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "flash: 70% fuzet",
+            "at": "2026-06-18T19:12:30.223Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 50,
+            "type": "flashcard",
+            "at": "2026-06-22T19:22:28.754Z",
+            "total": 3,
+            "notes": "lemaradt a tűzvédelem, az ups, nyomtatás ",
+            "confidence": 55
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 55,
+            "type": "flashcard",
+            "at": "2026-06-23T19:12:48.520Z",
+            "total": 3,
+            "notes": "tűzvédelem, az ups, nyomtatás, 4x leírtam, most mennie kell",
+            "confidence": 52
+          },
+          {
+            "struct": 0,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-25T21:21:34.597Z",
+            "total": 4,
+            "notes": "tűzvédelem, ups lemaradt.",
+            "confidence": 19
+          }
+        ]
+      },
+      "A11": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 44,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 4,
+          "flow": 5,
+          "readPct": 30,
+          "type": "flashcard",
+          "at": "2026-06-26T12:51:30.325Z",
+          "total": 14,
+          "notes": "c siem, soar: ok; lemaradt: playbook, threat intel, gyakorla, kommunikacio ",
+          "confidence": 35
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 2,
+            "total": 4,
+            "notes": "flash: 70% fuzet",
+            "at": "2026-06-18T19:53:59.555Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 30,
+            "total": 6,
+            "notes": "a c csak a masodikra ment",
+            "at": "2026-06-19T18:03:30.138Z",
+            "confidence": 57
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-22T18:24:53.569Z",
+            "total": 6,
+            "notes": "a c csak nem ment, leírtam megint",
+            "confidence": 58
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 2,
+            "readPct": 20,
+            "type": "flashcard",
+            "at": "2026-06-23T21:08:31.596Z",
+            "total": 7,
+            "notes": "a c félig ment, leírtam megint",
+            "confidence": 59
+          },
+          {
+            "struct": 5,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-26T12:51:30.325Z",
+            "total": 14,
+            "notes": "c siem, soar: ok; lemaradt: playbook, threat intel, gyakorla, kommunikacio ",
+            "confidence": 35
+          }
+        ]
+      },
+      "A12": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": 1,
+        "minutes": 64,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T12:53:29.262Z",
+          "total": 15,
+          "notes": "kimaxolva!",
+          "confidence": 48
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "70% olvasva",
+            "at": "2026-06-17T19:56:54.496Z"
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "ex": 0,
+            "flow": 2,
+            "total": 7,
+            "notes": "ultrarovid: nagyon jol ment!",
+            "at": "2026-06-18T17:26:43.941Z"
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 40,
+            "total": 8,
+            "notes": "flash: jol ment",
+            "at": "2026-06-19T20:15:01.494Z",
+            "confidence": 58
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 4,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-22T18:30:11.871Z",
+            "total": 9,
+            "notes": "flash: jol ment",
+            "confidence": 64
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-23T21:02:46.449Z",
+            "total": 15,
+            "notes": "flash: jol ment",
+            "confidence": 67
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T12:53:29.262Z",
+            "total": 15,
+            "notes": "kimaxolva!",
+            "confidence": 48
+          }
+        ]
+      },
+      "A13": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 44,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 3,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T13:31:49.584Z",
+          "total": 13,
+          "notes": "",
+          "confidence": 37
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 2,
+            "ex": 0,
+            "flow": 1,
+            "total": 4,
+            "notes": "flash: 50% lap",
+            "at": "2026-06-18T17:52:50.381Z"
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 50,
+            "total": 9,
+            "notes": "flash: 50% lap",
+            "at": "2026-06-19T17:40:57.063Z",
+            "confidence": 55
+          },
+          {
+            "struct": 3,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 40,
+            "type": "flashcard",
+            "at": "2026-06-22T17:41:49.193Z",
+            "total": 7,
+            "notes": "flash: b nem ment",
+            "confidence": 58
+          },
+          {
+            "struct": 3,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-23T21:19:42.641Z",
+            "total": 7,
+            "notes": "b es c hiányos volt",
+            "confidence": 58
+          },
+          {
+            "struct": 5,
+            "acc": 3,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T13:31:49.584Z",
+            "total": 13,
+            "notes": "",
+            "confidence": 37
+          }
+        ]
+      },
+      "A14": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 42,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T12:47:20.707Z",
+          "total": 15,
+          "notes": "simán ment!",
+          "confidence": 47
+        },
+        "voiceHistory": [
+          {
+            "struct": 2,
+            "acc": 3,
+            "ex": 0,
+            "flow": 2,
+            "total": 7,
+            "notes": "ultra rovid: egesz jol ment igy elsore",
+            "at": "2026-06-17T21:33:40.236Z"
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "ex": 0,
+            "flow": 3,
+            "total": 8,
+            "notes": "ultra rovid: egesz jol masodikra 90% fejbol",
+            "at": "2026-06-18T17:19:06.704Z"
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 35,
+            "total": 9,
+            "notes": "flash: a b hez kellett kicsit",
+            "at": "2026-06-19T20:09:24.674Z",
+            "confidence": 63
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-22T18:11:15.608Z",
+            "total": 9,
+            "notes": "flash: a b hez kellett kicsit",
+            "confidence": 68
+          },
+          {
+            "struct": 3,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-23T21:12:05.946Z",
+            "total": 9,
+            "notes": "b) MFA lemaradt",
+            "confidence": 68
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T12:47:20.707Z",
+            "total": 15,
+            "notes": "simán ment!",
+            "confidence": 47
+          }
+        ]
+      },
+      "A15": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 18,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 2,
+          "acc": 2,
+          "flow": 2,
+          "readPct": 20,
+          "type": "flashcard",
+          "at": "2026-06-25T20:51:28.970Z",
+          "total": 6,
+          "notes": "egész jol előjöttek a dolgok",
+          "confidence": 27
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 2,
+            "ex": 0,
+            "flow": 2,
+            "total": 5,
+            "notes": "flash: 50% fuzet",
+            "at": "2026-06-18T20:17:11.030Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 2,
+            "readPct": 60,
+            "type": "flashcard",
+            "at": "2026-06-22T20:53:16.623Z",
+            "total": 4,
+            "notes": "3x leírtam",
+            "confidence": 57
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-23T22:02:26.397Z",
+            "total": 6,
+            "notes": "a) félig ment",
+            "confidence": 57
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 20,
+            "type": "flashcard",
+            "at": "2026-06-25T20:51:28.970Z",
+            "total": 6,
+            "notes": "egész jol előjöttek a dolgok",
+            "confidence": 27
+          }
+        ]
+      },
+      "A16": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 41,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 4,
+          "flow": 5,
+          "readPct": 10,
+          "type": "flashcard",
+          "at": "2026-06-26T13:34:57.779Z",
+          "total": 14,
+          "notes": "",
+          "confidence": 30
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "flash: 90% fuzet",
+            "at": "2026-06-18T18:35:15.469Z"
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 70,
+            "total": 5,
+            "notes": "flash: c-hez kellett",
+            "at": "2026-06-19T20:02:45.486Z",
+            "confidence": 32
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 70,
+            "type": "flashcard",
+            "at": "2026-06-22T19:14:06.746Z",
+            "total": 3,
+            "notes": "nem ment nagyon, leirtam megegyszer",
+            "confidence": 48
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 1,
+            "readPct": 45,
+            "type": "flashcard",
+            "at": "2026-06-23T19:22:30.538Z",
+            "total": 4,
+            "notes": "a es c nem ment, leiram",
+            "confidence": 48
+          },
+          {
+            "struct": 5,
+            "acc": 4,
+            "flow": 5,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-26T13:34:57.779Z",
+            "total": 14,
+            "notes": "",
+            "confidence": 30
+          }
+        ]
+      },
+      "A17": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 33,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T13:26:29.238Z",
+          "total": 15,
+          "notes": "kimaxolva!",
+          "confidence": 34
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 2,
+            "total": 4,
+            "notes": "Flash: 60% fuzet",
+            "at": "2026-06-18T20:13:24.876Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "flow": 2,
+            "readPct": 75,
+            "total": 6,
+            "notes": "Flash: 75% fuzet",
+            "at": "2026-06-19T20:24:51.136Z",
+            "confidence": 32
+          },
+          {
+            "struct": 2,
+            "acc": 1,
+            "flow": 2,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-22T19:39:05.055Z",
+            "total": 5,
+            "notes": "a c nehezen ment",
+            "confidence": 51
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 2,
+            "readPct": 15,
+            "type": "flashcard",
+            "at": "2026-06-23T19:50:49.057Z",
+            "total": 7,
+            "notes": "a) ki kellett egészíteni a nyilvántartással es a kockázatdokumentációval",
+            "confidence": 53
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T13:26:29.238Z",
+            "total": 15,
+            "notes": "kimaxolva!",
+            "confidence": 34
+          }
+        ]
+      },
+      "A18": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 20,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 5,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-25T21:09:03.403Z",
+          "total": 15,
+          "notes": "kimaxolva!!",
+          "confidence": 32
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 0,
+            "flow": 1,
+            "total": 3,
+            "notes": "ultrarovid: a c-t olvastam",
+            "at": "2026-06-18T17:23:32.725Z"
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 60,
+            "type": "flashcard",
+            "at": "2026-06-22T20:16:30.433Z",
+            "total": 3,
+            "notes": "c majdnem jo",
+            "confidence": 54
+          },
+          {
+            "struct": 1,
+            "acc": 2,
+            "flow": 1,
+            "readPct": 55,
+            "type": "flashcard",
+            "at": "2026-06-23T20:17:53.228Z",
+            "total": 4,
+            "notes": "c majdnem jo",
+            "confidence": 52
+          },
+          {
+            "struct": 5,
+            "acc": 5,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-25T21:09:03.403Z",
+            "total": 15,
+            "notes": "kimaxolva!!",
+            "confidence": 32
+          }
+        ]
+      },
+      "A19": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 48,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 2,
+          "acc": 3,
+          "flow": 3,
+          "readPct": 10,
+          "type": "flashcard",
+          "at": "2026-06-23T21:24:51.564Z",
+          "total": 8,
+          "notes": "b, lemaradt az extended",
+          "confidence": 68
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 1,
+            "ex": 1,
+            "flow": 1,
+            "total": 4,
+            "notes": "flashcard: ultra rovid leirva, elolvasva, visszamondva jegyzetbol",
+            "at": "2026-06-17T08:28:26.057Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "ex": 1,
+            "flow": 2,
+            "total": 7,
+            "notes": "flashcard: ultra rovid leirva, elolvasva, visszamondva 30% jegyzetbol",
+            "at": "2026-06-17T18:52:05.491Z"
+          },
+          {
+            "struct": 2,
+            "acc": 2,
+            "ex": 1,
+            "flow": 3,
+            "total": 8,
+            "notes": "flashcard: ultra rovid leirva, elolvasva, visszamondva 20% jegyzetbol (c)",
+            "at": "2026-06-18T17:44:12.493Z"
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 10,
+            "total": 8,
+            "notes": "flash: b, performance nem emlekeztem",
+            "at": "2026-06-19T18:22:55.852Z",
+            "confidence": 74
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-22T18:06:05.478Z",
+            "total": 8,
+            "notes": "b, performance nem emlékeztem, volt nemi pontatlanság",
+            "confidence": 67
+          },
+          {
+            "struct": 2,
+            "acc": 3,
+            "flow": 3,
+            "readPct": 10,
+            "type": "flashcard",
+            "at": "2026-06-23T21:24:51.564Z",
+            "total": 8,
+            "notes": "b, lemaradt az extended",
+            "confidence": 68
+          }
+        ]
+      },
+      "A20": {
+        "outline": true,
+        "learned": false,
+        "recited": false,
+        "weak": true,
+        "hard": false,
+        "score": 1,
+        "minutes": 40,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": {
+          "struct": 5,
+          "acc": 3,
+          "flow": 5,
+          "readPct": 0,
+          "type": "flashcard",
+          "at": "2026-06-26T13:27:33.880Z",
+          "total": 13,
+          "notes": "c hiányos volt",
+          "confidence": 30
+        },
+        "voiceHistory": [
+          {
+            "struct": 1,
+            "acc": 0,
+            "ex": 0,
+            "flow": 0,
+            "total": 1,
+            "notes": "flash: 90% fuzetbol",
+            "at": "2026-06-18T18:22:22.703Z"
+          },
+          {
+            "struct": 1,
+            "acc": 0,
+            "flow": 0,
+            "readPct": 90,
+            "type": "flashcard",
+            "at": "2026-06-22T19:56:20.204Z",
+            "total": 1,
+            "notes": "90% füzetből",
+            "confidence": 48
+          },
+          {
+            "struct": 1,
+            "acc": 1,
+            "flow": 1,
+            "readPct": 30,
+            "type": "flashcard",
+            "at": "2026-06-23T20:25:16.866Z",
+            "total": 3,
+            "notes": "c) nem ment",
+            "confidence": 49
+          },
+          {
+            "struct": 5,
+            "acc": 3,
+            "flow": 5,
+            "readPct": 0,
+            "type": "flashcard",
+            "at": "2026-06-26T13:27:33.880Z",
+            "total": 13,
+            "notes": "c hiányos volt",
+            "confidence": 30
+          }
+        ]
+      },
+      "B01": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B02": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B03": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B04": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B05": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B06": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B07": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B08": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B09": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B10": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B11": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B12": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B13": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B14": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      },
+      "B15": {
+        "outline": false,
+        "learned": false,
+        "recited": false,
+        "weak": false,
+        "hard": false,
+        "score": null,
+        "minutes": 0,
+        "notes": {
+          "thea": "",
+          "outline": "",
+          "keywords": "",
+          "questions": "",
+          "errors": ""
+        },
+        "voice": null,
+        "voiceHistory": []
+      }
+    },
+    "days": {
+      "2026-06-09": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-10": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-11": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-12": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-13": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-14": {
+        "minutes": 130,
+        "missed": false,
+        "topics": [
+          "A01"
+        ]
+      },
+      "2026-06-15": {
+        "minutes": 86,
+        "missed": false,
+        "topics": [
+          "A02"
+        ]
+      },
+      "2026-06-16": {
+        "minutes": 24,
+        "missed": false,
+        "topics": [
+          "A02",
+          "A08"
+        ]
+      },
+      "2026-06-17": {
+        "minutes": 108,
+        "missed": false,
+        "topics": [
+          "A01",
+          "A03",
+          "A09",
+          "A12",
+          "A14",
+          "A18",
+          "A19"
+        ]
+      },
+      "2026-06-18": {
+        "minutes": 140,
+        "missed": false,
+        "topics": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20"
+        ]
+      },
+      "2026-06-19": {
+        "minutes": 140,
+        "missed": false,
+        "topics": [
+          "A02",
+          "A03",
+          "A04",
+          "A06",
+          "A07",
+          "A08",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A16",
+          "A17",
+          "A19"
+        ]
+      },
+      "2026-06-20": {
+        "minutes": 0,
+        "missed": true,
+        "topics": []
+      },
+      "2026-06-21": {
+        "minutes": 0,
+        "missed": true,
+        "topics": []
+      },
+      "2026-06-22": {
+        "minutes": 166,
+        "missed": false,
+        "topics": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20"
+        ]
+      },
+      "2026-06-23": {
+        "minutes": 151,
+        "missed": false,
+        "topics": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20"
+        ]
+      },
+      "2026-06-24": {
+        "minutes": 0,
+        "missed": true,
+        "topics": []
+      },
+      "2026-06-25": {
+        "minutes": 37,
+        "missed": false,
+        "topics": [
+          "A02",
+          "A03",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A10",
+          "A15",
+          "A18"
+        ]
+      },
+      "2026-06-26": {
+        "minutes": 34,
+        "missed": false,
+        "topics": [
+          "A01",
+          "A04",
+          "A06",
+          "A09",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A16",
+          "A17",
+          "A20"
+        ]
+      },
+      "2026-06-27": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-28": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-29": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-06-30": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-01": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-02": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-03": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-04": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-05": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-06": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-07": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-08": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-09": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      },
+      "2026-07-10": {
+        "minutes": 0,
+        "missed": false,
+        "topics": []
+      }
+    },
+    "customPlans": {
+      "2026-06-15": "",
+      "2026-06-17": ""
+    },
+    "settings": {
+      "focusMin": 35,
+      "breakMin": 10,
+      "longBreakMin": 15,
+      "blocksNum": 2
+    },
+    "examHistory": [],
+    "theme": "dark",
+    "lastExportDate": "2026-06-26",
+    "timerLogs": [
+      {
+        "at": "2026-06-25T14:21:23.008Z",
+        "localDate": "2026-06-25",
+        "action": "timer_start",
+        "topic": "A07",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 2100
+      },
+      {
+        "at": "2026-06-25T14:24:48.764Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A03",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 1899
+      },
+      {
+        "at": "2026-06-25T20:38:44.607Z",
+        "localDate": "2026-06-25",
+        "action": "timer_reset_confirmed",
+        "topic": "A03",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 1756
+      },
+      {
+        "at": "2026-06-25T20:44:33.877Z",
+        "localDate": "2026-06-25",
+        "action": "timer_start",
+        "topic": "A03",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 2100
+      },
+      {
+        "at": "2026-06-25T20:48:35.270Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A15",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 1897
+      },
+      {
+        "at": "2026-06-25T20:51:53.411Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A06",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 1705
+      },
+      {
+        "at": "2026-06-25T20:59:58.834Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A02",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 1236
+      },
+      {
+        "at": "2026-06-25T21:06:51.623Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A18",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 861
+      },
+      {
+        "at": "2026-06-25T21:18:39.211Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A10",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 698
+      },
+      {
+        "at": "2026-06-25T21:22:01.301Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A05",
+        "mode": "focus",
+        "block": 1,
+        "remaining": 501
+      },
+      {
+        "at": "2026-06-25T21:33:45.073Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A01",
+        "mode": "break",
+        "block": 2,
+        "remaining": 592
+      },
+      {
+        "at": "2026-06-25T21:43:37.075Z",
+        "localDate": "2026-06-25",
+        "action": "break_finished_waiting_for_user",
+        "topic": "A01",
+        "mode": "break",
+        "block": 2,
+        "remaining": 0,
+        "nextBlock": 2
+      },
+      {
+        "at": "2026-06-25T21:43:40.490Z",
+        "localDate": "2026-06-25",
+        "action": "next_block_started_manually",
+        "topic": "A01",
+        "mode": "focus",
+        "block": 2,
+        "remaining": 2100
+      },
+      {
+        "at": "2026-06-25T21:44:06.299Z",
+        "localDate": "2026-06-25",
+        "action": "timer_resume",
+        "topic": "A08",
+        "mode": "focus",
+        "block": 2,
+        "remaining": 2085
+      }
+    ],
+    "metrics": {
+      "appVersion": "3.2.4"
+    }
+  }
+}

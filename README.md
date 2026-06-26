@@ -18,22 +18,22 @@
 <table>
   <tr>
     <td align="center">
-      <strong>Világos téma</strong><br>
-      <img src="docs/main.png" alt="Záróvizsga Kontrollrendszer desktop világos téma" width="450">
+      <strong>Sötét téma</strong><br>
+      <img src="docs/main_dark.png" alt="Záróvizsga Kontrollrendszer desktop világos téma" width="450">
     </td>
     <td align="center">
-      <strong>Sötét téma</strong><br>
-      <img src="docs/main_dark.png" alt="Záróvizsga Kontrollrendszer desktop sötét téma" width="450">
+      <strong>Áttekintés</strong><br>
+      <img src="docs/overview.png" alt="Záróvizsga Kontrollrendszer desktop sötét téma" width="450">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <strong>Napok</strong><br>
-      <img src="docs/days.png" alt="Napok oldal - tételek" width="450">
+      <strong>Gyakorlás</strong><br>
+      <img src="docs/practice.png" alt="Visszamondás oldal, értékeléssel" width="450">
     </td>
     <td align="center">
-      <strong>Visszamondás</strong><br>
-      <img src="docs/practice.png" alt="Visszamondás oldal, értékeléssel" width="450">
+      <strong>Napok</strong><br>
+      <img src="docs/days.png" alt="Napok oldal - tételek" width="450">
     </td>
   </tr>
 </table>
@@ -43,12 +43,12 @@
 <table>
   <tr>
     <td align="center">
-      <strong>Világos téma</strong><br>
-      <img src="docs/main_mob.png" alt="Záróvizsga Kontrollrendszer Mobil világos téma" width="260">
-    </td>
-    <td align="center">
       <strong>Sötét téma</strong><br>
       <img src="docs/main_mob_dark.png" alt="Záróvizsga Kontrollrendszer Mobil sötét téma" width="260">
+    </td>
+    <td align="center">
+      <strong>Gyakorlás</strong><br>
+      <img src="docs/practice_mob.png" alt="Záróvizsga Kontrollrendszer Mobil világos téma" width="260">
     </td>
   </tr>
 </table>
@@ -57,59 +57,65 @@
 
 ## Tartalomjegyzék
 
-- [Első lépések](#elsőlépések)
-- [Áttekintés](#áttekintés)
+- [Gyors kezdés](#gyors-kezdés)
+- [Mi ez?](#mi-ez)
 - [Kinek készült?](#kinek-készült)
-- [Fő funkciók](#fő-funkciók)
-- [Módszertan](#módszertan)
+- [Legfontosabb funkciók](#legfontosabb-funkciók)
 - [Felület és menüpontok](#felület-és-menüpontok)
-- [Mobilhasználat](#mobilhasználat)
-- [Mentés és visszatöltés](#mentés-és-visszatöltés)
-- [Import előtti biztonsági mentés](#import-előtti-biztonsági-mentés)
-- [Dátumvezérelt tanulási beosztás](#dátumvezérelt-tanulási-beosztás)
-- [Visszamondás](#visszamondás)
+- [Gyakorlás workflow](#gyakorlás-workflow)
+- [Timer és aktív tétel logika](#timer-és-aktív-tétel-logika)
+- [Visszamondás és confidence](#visszamondás-és-confidence)
+- [Napok és napi tanulási idő](#napok-és-napi-tanulási-idő)
 - [Vizsgamód](#vizsgamód)
-- [Sötét téma](#sötét-téma)
-- [Telepítés / használat](#telepítés--használat)
+- [Mentés, import és export](#mentés-import-és-export)
+- [Mobilhasználat](#mobilhasználat)
 - [Adatkezelés](#adatkezelés)
+- [Telepítés / használat](#telepítés--használat)
 - [Projektstruktúra](#projektstruktúra)
-- [Fejlesztési megjegyzések](#fejlesztési-megjegyzések)
+- [Release notes – v3.2.4](#release-notes--v324)
 - [Roadmap ötletek](#roadmap-ötletek)
 - [Licenc](#licenc)
 - [Szerző](#szerző)
 
 ---
 
-## Első lépések
+## Gyors kezdés
 
-- A mentések törlésével tudod alaphelyzetbe állítani a programot
-- A **Timer** lapon kezd el a tanulást
-- Használd a **Visszamondás** oldalt a gyakorláshoz
+1. Töltsd le a legfrissebb single-file HTML fájlt:
 
-- Amennyiben a `Tételek_A01-20_2026`-at használod, akár így is lehet tanulni belőle:
-  1. **Első kör:** csak az „Ultra rövid memorizálós változatokat” tanuld meg
-  2. **Második kör:** minden tételnél az 5–8 perces feleletvázlatot mondd vissza hangosan
-  3. **Harmadik kör:** nézd át a részletes a/b/c részeket, hogy kérdés esetén tudj példát mondani
+   ```text
+   zarovizsga_v3.2.4_live.html
+   ```
+
+2. Nyisd meg böngészőben.
+3. A **Gyakorlás** oldalon válaszd ki az aktív tételt.
+4. Indítsd el a Timert.
+5. Mondd vissza a tételt, majd mentsd az értékelést.
+6. Nap végén exportálj JSON mentést.
+
+Nincs build folyamat, nincs backend, nincs login, nincs telepítés.
 
 ---
 
-## Áttekintés
+## Mi ez?
 
-A **Záróvizsga Kontrollrendszer** egy offline használható, böngészőben futó HTML alapú tanulásmenedzsment alkalmazás. A célja, hogy a záróvizsga-felkészülés ne csak érzésre történjen, hanem követhető, mérhető és rendszeresen visszacsatolt folyamat legyen.
+A **Záróvizsga Kontrollrendszer** egy offline használható, böngészőben futó HTML alapú tanulásmenedzsment alkalmazás.
 
-Az alkalmazás nem tananyag-helyettesítő. Inkább egy **felkészülési irányítópult**, amely segít követni:
+A célja, hogy a záróvizsga-felkészülés ne csak érzésre történjen, hanem követhető, mérhető és rendszeresen visszacsatolt folyamat legyen.
 
-- melyik tételből készült már vázlat,
-- melyik tétel lett megtanulva,
-- melyik tétel lett visszamondva,
+Az alkalmazás segít követni:
+
+- melyik tétellel foglalkoztál,
+- mennyi időt töltöttél egy tétellel,
+- melyik tételt mondtad vissza,
 - melyik tétel gyenge vagy nehéz,
-- milyen pontszámot adsz magadnak,
-- mennyi nettó tanulási idő ment el naponta,
-- mennyi időt fordítottál egy konkrét tételre,
-- mikor kell ismételni,
+- milyen a Flashcard / Teljes tétel gyakorlási arány,
+- milyen a confidence / magabiztosság,
+- mikor érdemes újra gyakorolni,
+- hogyan állsz a napi tanulási tervhez képest,
 - mikor kell JSON mentést exportálni.
 
-Az alkalmazás teljesen kliensoldali: nincs backend, nincs adatbázis, nincs login, nincs felhős szinkronizáció. Minden adat a böngésző `localStorage` tárhelyén és az exportált JSON mentésekben él.
+Az alkalmazás nem tananyag-helyettesítő. Inkább egy **felkészülési irányítópult**, amely a gyakorlási folyamatot, az időráfordítást és a visszamondási minőséget teszi láthatóvá.
 
 ---
 
@@ -119,190 +125,268 @@ Ez az alkalmazás olyan felhasználónak készült, aki:
 
 - záróvizsgára vagy nagy tételsoros vizsgára készül,
 - szeretné látni a teljes felkészülési állapotot,
-- nem csak olvasni, hanem visszamondani is akarja a tételeket,
+- nem csak olvasni, hanem aktívan visszamondani is akarja a tételeket,
 - szeretné látni, hogy mely tételek gyengék,
 - szeretne napi tanulási kontrollt,
-- offline, egyfájlos, egyszerűen hordozható megoldást keres,
+- offline, egyfájlos, hordozható megoldást keres,
 - nem akar külön szervert, adatbázist vagy regisztrációt használni.
 
 ---
 
-## Fő funkciók
+## Legfontosabb funkciók
 
-### Dashboard
+### 🎯 Gyakorlás cockpit
 
-A Dashboard az alkalmazás fő áttekintő nézete. Itt látszik:
+A napi tanulási kör fő oldala. Egy helyen kezelhető:
 
-- összes tétel száma,
-- megtanult tételek száma,
-- visszamondott tételek száma,
-- gyenge tételek száma,
-- összes nettó tanulási idő,
-- tanulás kezdődátuma,
-- vizsgáig hátralévő napok száma,
-- napi fókusz,
-- automatikus ajánlás,
-- backup emlékeztető,
-- ismétlési ajánló.
+- aktív tétel kiválasztása,
+- Timer indítás / szünet / reset / szinkron,
+- +5 / +10 perc gyorsgomb,
+- szünet átugrás,
+- visszamondás értékelés,
+- jegyzet használat,
+- confidence előnézet,
+- aktív tétel próbálkozásszáma,
+- aktív tétel confidence értéke,
+- Mai tételek listája.
 
-A Dashboard 4 grafikont tartalmaz:
+### 🧭 Tanulási iránytű
 
-1. **Napi nettó tanulási idő**
-2. **Státusz megoszlás**
-3. **Gyenge/nehéz A vs B**
-4. **Pontszám-eloszlás**
+A korábbi Dashboard helyett a fő döntéstámogató nézet.
 
-### Prioritási kártyák
+Megjeleníti:
 
-A Prioritás nézetben minden tétel külön kártyát kap. Egy tételkártyán jelölhető:
+- Top 3 fókuszpont,
+- confidence chip-ek,
+- időráfordítás chip-ek,
+- Flashcard / Teljes tétel arány,
+- tanulási ROI nézet,
+- napi nettó tanulási idő grafikont,
+- státusz megoszlást.
 
-- vázlat készült-e,
-- tanult-e,
-- visszamondott-e,
-- gyenge-e,
-- nehéz-e,
-- 0–3 közötti önértékelő pontszám,
-- tételre fordított tanulási idő.
+### 📋 Áttekintés
 
-Szűrési lehetőségek:
+A korábbi Prioritás oldal új neve és bővített logikája.
 
-- A/B tételsor,
-- kockázati szint,
-- gyenge tételek,
-- nehéz tételek,
-- nem visszamondott tételek,
-- 0–1 pontos tételek.
+Támogatja:
 
-### Timer tételhez kötött időméréssel
+- A / A+B / B gyorsszűrést,
+- ajánlott rendezést,
+- confidence szerinti rendezést,
+- ráfordított idő szerinti rendezést,
+- hiányzó Teljes tétel szerinti rendezést,
+- Flashcard és Teljes tétel próbák megkülönböztetését,
+- tételállapotok jelölését.
 
-A Timer nézetben először ki kell választani az aktív tételt. Ezután a fókuszidő:
+### ⏱️ Timer haladó
 
-- hozzáadódik az aktuális nap nettó tanulási idejéhez,
-- hozzáadódik a kiválasztott tétel saját időráfordításához.
+A részletes Timer oldal.
 
-Ez azért fontos, mert így nem csak az látszik, hogy egy napon mennyit tanultál, hanem az is, hogy konkrétan melyik tételre mennyi idő ment el.
+Funkciók:
 
-### Napi checklist
+- aktív tételhez kötött időmérés,
+- fókusz / rövid szünet / hosszú szünet beállítás,
+- blokkszám,
+- presetek,
+- időkeret kalkulátor,
+- várható befejezési idő,
+- szinkronizált tételidő.
 
-A Checklist nézet napi tanulási rutin támogatására készült. Alap checklist generálható, valamint saját terv is rögzíthető.
+### 🔊 Visszamondás haladó
 
-Tipikus checklist elemek:
+A részletes visszamondás-értékelő oldal.
 
-- előző napi anyag visszahívása,
-- fókuszblokkok,
-- legalább egy jegyzet nélküli visszamondás,
-- gyenge tétel javítása,
-- nap végi JSON export.
+Támogatja:
 
-### Tételenkénti jegyzetek
+- Flashcard gyakorlást,
+- Teljes tétel visszamondást,
+- struktúra pontozást,
+- pontosság pontozást,
+- folyékonyság / idő pontozást,
+- jegyzethasználat százalékos rögzítését,
+- confidence számítást,
+- próbálkozástörténetet.
 
-A Jegyzetek nézetben tételenként rögzíthető:
+### 🧪 Vizsgamód
 
-- feleletvázlat,
-- hibajegyzet,
-- kulcsfogalom,
-- vizsgáztatói kérdés,
-- külső tananyag link vagy keresőkifejezés.
+Vizsgaszerű gyakorlófelület:
 
-A cél nem egy teljes jegyzetfüzet kiváltása, hanem egy 5–8 perces, vizsgán elmondható feleletvázlat karbantartása.
-
----
-
-## Módszertan
-
-Az alkalmazás három felkészülési logikát támogat.
-
-### Opció A – kiegyensúlyozott terv
-
-Ez az alapértelmezett stratégia.
-
-Lépései:
-
-1. minden tétel első feldolgozása,
-2. rövid feleletvázlat készítése,
-3. aktív ismétlés,
-4. jegyzet nélküli visszamondás,
-5. gyenge pontok javítása,
-6. vizsgaszimuláció.
-
-### Opció B – gyors lefedés
-
-Ez akkor hasznos, ha gyorsan át kell látni a teljes tételsort.
-
-Jellemzői:
-
-- rövid idő alatt sok tétel első körös feldolgozása,
-- utána intenzív ismétlés,
-- hamar kiderülnek a gyenge pontok.
-
-### Opció C – fallback / minimum túlélő terv
-
-Ez krízishelyzetre készült.
-
-Akkor érdemes aktiválni, ha:
-
-- sok nap kiesett,
-- közel a vizsga,
-- sok tétel 0–1 pontos,
-- nincs idő mély kidolgozásra.
-
-Cél:
-
-- minden tételből legyen legalább 5–7 perces minimum vázlat,
-- a leggyengébb tételek kapjanak prioritást,
-- új anyag helyett vizsgán elmondható minimum készüljön.
+- A+B tételhúzás,
+- felkészülési idő,
+- felelési idő,
+- szünet / reset,
+- utolsó vizsgamód gyakorlások mentése.
 
 ---
 
 ## Felület és menüpontok
 
-### Dashboard
+### Gyakorlás
 
-Fő áttekintő oldal, grafikonokkal és ajánlókkal.
+A napi fő workflow. A legtöbb napi tanulási művelet innen végezhető el.
 
-### Prioritás
+### Iránytű
 
-A tételállapotok fő kezelőfelülete.
+Fő áttekintő és döntéstámogató oldal. Itt látszik, mire érdemes fókuszálni.
 
-### Checklist
+### Áttekintés
 
-Napi tanulási terv és ellenőrzőlista.
-
-### Jegyzetek
-
-Tételenkénti feleletvázlat és hibajegyzet.
+Tételek részletes állapotkezelése, confidence és gyakorlási metrikák alapján.
 
 ### Napok
 
-Napi nettó tanulási idő követése. A kezdődátum és a vizsgadátum módosításával a beosztás automatikusan újraszámolódik.
+Napi nettó tanulási idő és napi tétellista követése.
 
-### Timer
+### Timer haladó
 
-Fókuszidő mérés aktív tételhez kapcsolva.
+Részletes Timer beállítások és kalkulátor.
 
-### Visszamondás
+### Visszamondás haladó
 
-Random tételhúzás, hangos visszamondás, státuszjelölés és 0–3 közötti önértékelés egy oldalon.
-
-### Szimuláció
-
-Egyszerű A+B tételhúzás és gyakorlás.
+Részletes visszamondás-napló és értékelés.
 
 ### Vizsgamód
 
-Zavartalan vizsgaszerű gyakorlás állítható időkkel.
+Vizsgaszerű A+B tételhúzás és időmérés.
 
-### Riport
+### További oldalak
 
-Nap végi státusz szöveg generálása.
+Kapcsolható extra oldalak:
 
-### Mentés
+- Checklist,
+- Jegyzetek,
+- Riport.
 
-JSON export és import.
+---
 
-### Dokumentáció
+## Gyakorlás workflow
 
-A Dokumentáció menüpont új böngészőfülön megnyitja a projekt GitHub oldalát.
+A javasolt napi tanulási kör:
+
+1. Nyisd meg a **Gyakorlás** oldalt.
+2. Válaszd ki az aktív tételt.
+3. Indítsd el a Timert.
+4. Tanulj legalább 1 fókuszpercet.
+5. A tétel ezután bekerül a **Mai tételek** listába.
+6. Mondd vissza a tételt.
+7. Értékeld:
+   - struktúra,
+   - pontosság,
+   - folyékonyság,
+   - jegyzethasználat.
+8. Mentsd az értékelést.
+9. Nézd meg az Iránytű és Áttekintés frissített állapotát.
+
+Fontos: a tétel nem kerül be automatikusan a Mai tételek listába pusztán kiválasztáskor. Legalább 1 tényleges fókuszperc szükséges hozzá.
+
+---
+
+## Timer és aktív tétel logika
+
+Az alkalmazásban egy közös aktív tétel van.
+
+Ez szinkronban van:
+
+- felső Aktív tétel csempével,
+- Gyakorlás oldallal,
+- Timer haladó oldallal,
+- Visszamondás haladó oldallal.
+
+### Timer futása közben
+
+Ha a Timer fut:
+
+- a tételválasztók zárolva vannak,
+- a tétel nem váltható át véletlenül,
+- kattintásra notification jelenik meg,
+- a zárolás vizuálisan is látszik.
+
+Notification szöveg:
+
+```text
+Futó Timer közben a tételválasztó zárolva van. Állítsd szünetre a tételváltáshoz.
+```
+
+A zárolás feloldásakor a `zárolva` címke teljesen eltűnik.
+
+---
+
+## Visszamondás és confidence
+
+A rendszer külön kezeli:
+
+- **Flashcard** gyakorlást,
+- **Teljes tétel** visszamondást.
+
+A confidence számítás figyelembe veszi:
+
+- struktúra pontot,
+- pontosság pontot,
+- folyékonyság / idő pontot,
+- jegyzethasználatot,
+- gyakorlás típusát,
+- próbálkozástörténetet,
+- recency / frissesség hatását.
+
+A Teljes tétel nagyobb bizonyító erejű, a Flashcard rövidebb gyakorlási bizonyítékként számít.
+
+---
+
+## Napok és napi tanulási idő
+
+A **Napok** oldal vezeti:
+
+- napi nettó tanulási időt,
+- napi témalistát,
+- kieső nap jelölést,
+- napi haladási százalékot.
+
+A Timer szinkronizálásakor:
+
+- nő az adott nap nettó tanulási ideje,
+- nő az aktív tételre fordított idő,
+- legalább 1 fókuszperc után az aktív tétel bekerül a napi tétellistába.
+
+---
+
+## Vizsgamód
+
+A Vizsgamód célja a zavartalan vizsgagyakorlás.
+
+Ebben a módban:
+
+- húzható 1 A és 1 B tétel,
+- állítható a felkészülési idő,
+- állítható a felelési idő,
+- külön timer indítható a felkészüléshez és feleléshez,
+- az 1 percnél rövidebb próbákat a rendszer nem menti.
+
+---
+
+## Mentés, import és export
+
+Az alkalmazás automatikusan ment a böngésző `localStorage` tárhelyére.
+
+Emellett ajánlott minden tanulónap végén JSON fájlt exportálni:
+
+```text
+További oldalak / Mentés → Export JSON fájl
+```
+
+Visszatöltés:
+
+```text
+További oldalak / Mentés → Import JSON fájlból
+```
+
+A JSON export/import célja:
+
+- böngészőváltás esetén ne vesszen el az állapot,
+- gépváltás esetén visszatölthető legyen a haladás,
+- cache törlése esetén legyen mentés,
+- hibás import előtt legyen biztonsági mentés.
+
+Import előtt az alkalmazás automatikusan lementi az aktuális állapotot.
 
 ---
 
@@ -311,124 +395,13 @@ A Dokumentáció menüpont új böngészőfülön megnyitja a projekt GitHub old
 Az alkalmazás mobilra optimalizált:
 
 - kompakt felső sáv,
-- kisebb statisztikai kártyák,
-- jobb alsó lebegő hamburger gomb,
+- mobilbarát kártyanézet,
+- lebegő hamburger menü,
 - jobbról beúszó menü,
-- egyoszlopos kártyanézet,
 - teljes szélességű inputok,
-- mobilbarát timer,
-- mobilbarát JSON import/export.
-
-A hamburger menüben a téma kapcsoló a menü **bal alsó sarkában** található.
-
----
-
-## Mentés és visszatöltés
-
-Az alkalmazás automatikusan ment a böngésző `localStorage` tárhelyére.
-
-Emellett ajánlott minden tanulónap végén JSON fájlt exportálni:
-
-```text
-Mentés → Export JSON fájl
-```
-
-Visszatöltés:
-
-```text
-Mentés → Import JSON fájlból
-```
-
-A JSON import/export célja, hogy:
-
-- böngészőváltás esetén ne vesszen el az állapot,
-- gépváltás esetén visszatölthető legyen a haladás,
-- hibás böngésző cache törlés esetén legyen mentés.
-
----
-
-## Import előtti biztonsági mentés
-
-Import előtt az alkalmazás automatikusan letölt egy aktuális állapotmentést.
-
-Ennek célja, hogy egy hibás vagy rossz JSON import ne írja felül véglegesen a korábbi állapotot.
-
----
-
-## Dátumvezérelt tanulási beosztás
-
-A v2.8.3 verzióban a tanulási terv már nem fix dátumtól indul. Beállítható:
-
-- a tanulás kezdődátuma,
-- a vizsga dátuma.
-
-A két dátum módosítása után a **Napok** oldal automatikusan újraszámolja az ütemezést. Sikeres újraszámoláskor rövid, modern üzenetbuborék jelenik meg.
-
----
-
-## Visszamondás
-
-A v2.8.3 verzióban a korábbi külön Random visszamondás és Hangos visszamondás funkciók egy oldalra kerültek.
-
-A Visszamondás oldalon elérhető:
-
-- random tételhúzás,
-- visszamondva / gyenge / nehéz státusz,
-- 0–3 pontszám,
-- hangos felelet értékelése,
-- struktúra, pontosság, példák, folyékonyság/idő pontozása,
-- jegyzet, hogy mi hiányzott.
-
----
-
-## Vizsgamód
-
-A Vizsgamód célja a zavartalan vizsgagyakorlás. Ebben a módban:
-
-- húzható 1 A és 1 B tétel,
-- állítható a felkészülési idő,
-- állítható a felelési idő,
-- külön timer indítható a felkészüléshez és a feleléshez.
-
-A Vizsgamód nem adminisztrációs felület, hanem gyakorló nézet.
-
----
-
-## Sötét téma
-
-Az alkalmazás világos és sötét témát is támogat.
-
-A téma kapcsoló:
-
-- a hamburger menü alján,
-- bal oldalon,
-- hold / nap ikonnal jelenik meg.
-
-A sötét téma külön figyel a kontrasztra:
-
-- kártyák,
-- inputok,
-- szövegek,
-- grafikon hátterek,
-- figyelmeztetések,
-- menüelemek.
-
----
-
-## Telepítés / használat
-
-Nincs telepítés.
-
-1. Töltsd le a HTML fájlt.
-2. Nyisd meg böngészőben.
-3. Használd offline.
-4. Nap végén exportálj JSON mentést.
-
-Ajánlott fájl:
-
-```text
-zarovizsga_v2.8.3_live.html
-```
+- mobilbarát Timer,
+- mobilbarát JSON import/export,
+- világos és sötét téma.
 
 ---
 
@@ -446,7 +419,24 @@ Fontos:
 - a `localStorage` böngészőhöz kötött,
 - privát böngészésben törlődhet,
 - cache törlésekor elveszhet,
-- ezért kell rendszeresen JSON export.
+- ezért ajánlott rendszeres JSON export.
+
+---
+
+## Telepítés / használat
+
+Nincs telepítés.
+
+1. Töltsd le a HTML fájlt.
+2. Nyisd meg böngészőben.
+3. Használd offline.
+4. Nap végén exportálj JSON mentést.
+
+Ajánlott fájl:
+
+```text
+zarovizsga_v3.2.4_live.html
+```
 
 ---
 
@@ -454,35 +444,49 @@ Fontos:
 
 ```text
 .
-├── zarovizsga_v2.8.3_live.html
+├── zarovizsga_v3.2.4_live.html
 ├── README.md
-├── main.png
-├── main_dark.png
-├── main_mob.png
-└── main_mob_dark.png
+└── assets/
+    └── screenshots/
 ```
+
+A projekt szándékosan egyfájlos HTML alkalmazásként működik. A production build nem igényel külön JavaScript vagy CSS fájlokat.
 
 ---
 
-## Fejlesztési megjegyzések
+## Release notes – v3.2.4
 
-Az alkalmazás szándékosan egyfájlos.
+### Új / frissített elemek
 
-Előnyök:
+- Gyakorlás cockpit véglegesítve.
+- Tanulási iránytű frissítve Top 3 fókuszponttal.
+- Prioritás oldal átnevezve Áttekintésre.
+- Timer átnevezve Timer haladóra.
+- Visszamondás átnevezve Visszamondás haladóra.
+- Haladó oldalak átnevezve További oldalakra.
+- Aktív tétel csempe bekerült a felső sávba.
+- Timer és Aktív tétel egymás mellé került.
+- Tételválasztók zárolódnak futó Timer közben.
+- Zárolt tételválasztó kattintásakor notification jelenik meg.
+- Gyakorlás nagy Timer kijelző élőben frissül.
+- Iránytű fókuszpont chip-ek kontrasztos formázást kaptak.
+- Zárolva címke feloldás után eltűnik.
+- Mai tételek listába csak legalább 1 fókuszperc után kerül be a tétel.
+- Reset gomb megerősítő állapota javítva.
+- Production single-file build külső JS dependency nélkül.
 
-- egyszerű megosztani,
-- offline működik,
-- nincs build folyamat,
-- nincs backend,
-- nincs külső függőség.
+### Javított regressziók
 
-Hátrányok:
+- Gyakorlás oldali nagy Timer nem frissült.
+- Iránytű Top 3 fókuszpont chip-ek szürkék lettek.
+- Tételválasztó zárolása után a `zárolva` címke feloldáskor elúszott.
+- Reset gomb állapot / szín regresszió.
 
-- nagyobb HTML fájl,
-- nincs automatikus felhős szinkron,
-- többfelhasználós mód nincs.
+### Compatibility
 
-A többfelhasználós mód jelenleg nem cél, mert az már backend, authentikáció és adatbázis irányába vinné el a projektet.
+A localStorage schema nem változott.
+
+Meglévő mentések tovább használhatók.
 
 ---
 
@@ -495,7 +499,8 @@ Lehetséges későbbi fejlesztések:
 - exportált riportok összehasonlítása,
 - részletesebb vizsgamód pontozás,
 - heti összefoglaló,
-- automatikus haladási mérföldkövek.
+- automatikus haladási mérföldkövek,
+- több screenshot és GIF a README-ben.
 
 ---
 
