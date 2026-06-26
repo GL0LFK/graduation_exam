@@ -1,3 +1,4 @@
+[![GL0LFK / graduation_exam](https://img.shields.io/static/v1?label=gl0lfk&message=graduation_exam&color=yellow&logo=github)](https://github.com/GL0LFK/graduation_exam)
 # Záróvizsga Kontrollrendszer
 
 > **Legújabb release:** v3.2.4  
