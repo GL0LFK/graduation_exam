@@ -89,6 +89,7 @@
    ```
 
 2. Nyisd meg böngészőben.
+   3. Használd a Törlés gombot a menü alatt (3. ikon)
 3. A **Gyakorlás** oldalon válaszd ki az aktív tételt.
 4. Indítsd el a Timert.
 5. Mondd vissza a tételt, majd mentsd az értékelést.
